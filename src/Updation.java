@@ -490,7 +490,7 @@ public class Updation extends javax.swing.JFrame {
 
                 pst.setInt(1, id);
                 pst.executeUpdate();
-                JOptionPane.showMessageDialog(this,"Record Updated Successfully");
+                JOptionPane.showMessageDialog(this,"Record Deleted Successfully");
                 updateDB();
                 EnrollJ.setText("");
                 EnrollJ.requestFocus();
